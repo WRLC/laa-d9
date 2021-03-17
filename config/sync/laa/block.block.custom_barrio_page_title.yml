@@ -1,0 +1,20 @@
+uuid: b9e49caa-3a58-4ab5-a1ba-101020e9a6b2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - custom_barrio
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: custom_barrio_page_title
+theme: custom_barrio
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
