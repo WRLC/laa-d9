@@ -91,9 +91,8 @@ class Environment
             if (!$name = getenv("USER")) {
                 // If USER not defined, use posix
                 if (function_exists('posix_getpwuid')) {
-                    if ($processUser = posix_getpwuid(posix_geteuid())) {
-                        $name = $processUser['name'];
-                    }
+                    $processUser = posix_getpwuid(posix_geteuid());
+                    $name = $processUser['name'];
                 }
             }
         }
