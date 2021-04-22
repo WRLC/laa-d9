@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'bdd8b685daf66b364399865aa8571ba4d0e0fe57',
+    'reference' => '80bc7b8b3146fab212583c484afc3d60e7689b7c',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -714,6 +714,15 @@ private static $installed = array (
         0 => '9.1.7',
       ),
     ),
+    'drupal/google_analytics' => 
+    array (
+      'pretty_version' => '3.1.0',
+      'version' => '3.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.1',
+    ),
     'drupal/hal' => 
     array (
       'replaced' => 
@@ -942,7 +951,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'bdd8b685daf66b364399865aa8571ba4d0e0fe57',
+      'reference' => '80bc7b8b3146fab212583c484afc3d60e7689b7c',
     ),
     'drupal/responsive_image' => 
     array (
