@@ -1,15 +1,5 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -29,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'e2fa270d6cf7dc37984948f32935365be79a7525',
+    'reference' => 'bdd8b685daf66b364399865aa8571ba4d0e0fe57',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -708,6 +698,15 @@ private static $installed = array (
         0 => '9.1.7',
       ),
     ),
+    'drupal/fontawesome' => 
+    array (
+      'pretty_version' => '2.18.0',
+      'version' => '2.18.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.18',
+    ),
     'drupal/forum' => 
     array (
       'replaced' => 
@@ -943,7 +942,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'e2fa270d6cf7dc37984948f32935365be79a7525',
+      'reference' => 'bdd8b685daf66b364399865aa8571ba4d0e0fe57',
     ),
     'drupal/responsive_image' => 
     array (
