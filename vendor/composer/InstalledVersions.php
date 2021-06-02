@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '92a0f83d63fcebb7a3d184a9f995b92cadb3f143',
+    'reference' => '172585415f1d6d80f60f41dbf7efb4200bf4edea',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -211,12 +211,12 @@ private static $installed = array (
     ),
     'drupal/admin_toolbar' => 
     array (
-      'pretty_version' => '3.0.0',
-      'version' => '3.0.0.0',
+      'pretty_version' => '3.0.1',
+      'version' => '3.0.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '3.0.0',
+      'reference' => '3.0.1',
     ),
     'drupal/adminimal_admin_toolbar' => 
     array (
@@ -951,7 +951,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '92a0f83d63fcebb7a3d184a9f995b92cadb3f143',
+      'reference' => '172585415f1d6d80f60f41dbf7efb4200bf4edea',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1599,21 +1599,21 @@ private static $installed = array (
     ),
     'symfony/polyfill-php72' => 
     array (
-      'pretty_version' => 'v1.22.1',
-      'version' => '1.22.1.0',
+      'pretty_version' => 'v1.23.0',
+      'version' => '1.23.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'cc6e6f9b39fe8075b3dabfbaf5b5f645ae1340c9',
+      'reference' => '9a142215a36a3888e30d0a9eeea9766764e96976',
     ),
     'symfony/polyfill-php73' => 
     array (
-      'pretty_version' => 'v1.22.1',
-      'version' => '1.22.1.0',
+      'pretty_version' => 'v1.23.0',
+      'version' => '1.23.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a678b42e92f86eca04b7fa4c0f6f19d097fb69e2',
+      'reference' => 'fba8933c384d6476ab14fb7b8526e5287ca7e010',
     ),
     'symfony/polyfill-php80' => 
     array (
