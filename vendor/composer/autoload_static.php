@@ -104,6 +104,10 @@ class ComposerStaticInit89b44572c655492073461dbb86240db4
             'Psr\\Container\\' => 14,
             'PhpParser\\' => 10,
         ),
+        'O' => 
+        array (
+            'OomphInc\\ComposerInstallersExtender\\' => 36,
+        ),
         'M' => 
         array (
             'Masterminds\\' => 12,
@@ -338,6 +342,10 @@ class ComposerStaticInit89b44572c655492073461dbb86240db4
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'OomphInc\\ComposerInstallersExtender\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oomphinc/composer-installers-extender/src',
         ),
         'Masterminds\\' => 
         array (

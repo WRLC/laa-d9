@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'c2a3928a58b0fc311dbd690f79bc31875218af83',
+    'reference' => '4360e49c4b744af9c319bee3800c6b6a64f5cf2d',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -32,6 +32,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
+    ),
+    'bower-asset/bootstrap' => 
+    array (
+      'pretty_version' => 'v5.0.1',
+      'version' => '5.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '58b1be927f43c779377e478df2d119f2ddf956ca',
     ),
     'chi-teck/drupal-code-generator' => 
     array (
@@ -951,7 +960,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'c2a3928a58b0fc311dbd690f79bc31875218af83',
+      'reference' => '4360e49c4b744af9c319bee3800c6b6a64f5cf2d',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1264,6 +1273,33 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6d052fc58cb876152f89f532b95a8d7907e7f0e',
+    ),
+    'npm-asset/fonticonpicker--fonticonpicker' => 
+    array (
+      'pretty_version' => '3.1.1',
+      'version' => '3.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'npm-asset/jquery' => 
+    array (
+      'pretty_version' => '3.6.0',
+      'version' => '3.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'oomphinc/composer-installers-extender' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8d3fe38a1723e0e91076920c8bb946b1696e28ca',
     ),
     'orno/di' => 
     array (
