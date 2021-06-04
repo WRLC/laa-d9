@@ -1,0 +1,20 @@
+uuid: 4d582514-b90c-4349-9c1e-9b3e57ff0cc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_date_of_evaluation
+field_name: field_date_of_evaluation
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

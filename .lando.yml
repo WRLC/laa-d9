@@ -2,3 +2,13 @@ name: laa-d9
 recipe: drupal9
 config:
   webroot: web
+  database: mariadb:10.3
+proxy:
+  appserver:
+    - laa.lndo.site  # libraryaccessibility.org
+    - oa.wrlc.lndo.site  # oa.wrlc.org
+services:
+  # oa.wrlc.org database
+  oa:
+    type: mariadb:10.3
+    portforward: true

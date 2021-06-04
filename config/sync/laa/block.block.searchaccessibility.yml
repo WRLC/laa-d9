@@ -1,0 +1,25 @@
+uuid: 3a75ec55-16cb-4627-ac01-4fd76d243b47
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a54659f8-a04f-413f-ae62-87cfd4268c3a'
+  module:
+    - block_content
+  theme:
+    - custom_barrio
+id: searchaccessibility
+theme: custom_barrio
+region: top_header_form
+weight: -4
+provider: null
+plugin: 'block_content:a54659f8-a04f-413f-ae62-87cfd4268c3a'
+settings:
+  id: 'block_content:a54659f8-a04f-413f-ae62-87cfd4268c3a'
+  label: 'Search (Accessibility)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

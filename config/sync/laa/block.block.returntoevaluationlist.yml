@@ -1,0 +1,30 @@
+uuid: b6e60334-a592-4a2c-aa02-4fd0c6e0c652
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:193d3a3f-3142-4aad-a47c-a1be12645d5e'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: returntoevaluationlist
+theme: custom_barrio
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:193d3a3f-3142-4aad-a47c-a1be12645d5e'
+settings:
+  id: 'block_content:193d3a3f-3142-4aad-a47c-a1be12645d5e'
+  label: 'Return to Evaluation List'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/evaluation/*'
+    negate: false

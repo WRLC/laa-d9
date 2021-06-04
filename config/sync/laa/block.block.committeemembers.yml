@@ -1,0 +1,30 @@
+uuid: 2d743d95-f03f-47a3-b5a8-18926ca17efb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1eb5374b-337f-407e-be38-c93d0277b0bd'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: committeemembers
+theme: custom_barrio
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:1eb5374b-337f-407e-be38-c93d0277b0bd'
+settings:
+  id: 'block_content:1eb5374b-337f-407e-be38-c93d0277b0bd'
+  label: 'Committee Members'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/6\r\n/committees"
+    negate: false

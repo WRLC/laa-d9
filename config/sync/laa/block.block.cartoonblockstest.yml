@@ -1,0 +1,30 @@
+uuid: 7137f419-e55a-4cac-9bd2-dfec56f3f79b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a5801c7-411b-4464-8037-ac7bf912ea64'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: cartoonblockstest
+theme: custom_barrio
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:4a5801c7-411b-4464-8037-ac7bf912ea64'
+settings:
+  id: 'block_content:4a5801c7-411b-4464-8037-ac7bf912ea64'
+  label: 'cartoon blocks test'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-test
+    negate: false

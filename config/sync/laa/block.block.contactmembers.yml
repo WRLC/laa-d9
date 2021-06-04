@@ -1,0 +1,30 @@
+uuid: a96d875c-3397-4566-b4f6-d277b1b304c3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:83df24aa-2a83-411e-9eed-f610a688bcd0'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: contactmembers
+theme: custom_barrio
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:83df24aa-2a83-411e-9eed-f610a688bcd0'
+settings:
+  id: 'block_content:83df24aa-2a83-411e-9eed-f610a688bcd0'
+  label: 'Contact Members'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false

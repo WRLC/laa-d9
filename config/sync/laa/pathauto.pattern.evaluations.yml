@@ -1,0 +1,22 @@
+uuid: 73140b6f-9cf5-4a81-89b3-4dbe6e975038
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: evaluations
+label: Evaluations
+type: 'canonical_entities:node'
+pattern: 'evaluation/[node:title]'
+selection_criteria:
+  11e80b7a-f1b2-4e4b-afb2-1c880a77b620:
+    id: node_type
+    bundles:
+      evaluation: evaluation
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 11e80b7a-f1b2-4e4b-afb2-1c880a77b620
+selection_logic: and
+weight: -5
+relationships: {  }
