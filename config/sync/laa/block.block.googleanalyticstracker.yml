@@ -1,0 +1,25 @@
+uuid: 5e671f9b-b832-4dc8-8b9c-182b9f7fc4fe
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:78ccfaf2-d2df-47c6-a7db-69a768663aac'
+  module:
+    - block_content
+  theme:
+    - custom_barrio
+id: googleanalyticstracker
+theme: custom_barrio
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:78ccfaf2-d2df-47c6-a7db-69a768663aac'
+settings:
+  id: 'block_content:78ccfaf2-d2df-47c6-a7db-69a768663aac'
+  label: 'Google Analytics Tracker'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

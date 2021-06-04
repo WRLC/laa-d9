@@ -1,0 +1,72 @@
+uuid: 58cc88c3-be8c-4f88-ad96-d9448fceb440
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.evaluation.body
+    - field.field.node.evaluation.field_date_of_evaluation
+    - field.field.node.evaluation.field_file
+    - field.field.node.evaluation.field_vendor
+    - field.field.node.evaluation.field_vendor_response
+    - node.type.evaluation
+  module:
+    - datetime
+    - file
+    - link
+    - text
+    - user
+id: node.evaluation.default
+targetEntityType: node
+bundle: evaluation
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date_of_evaluation:
+    weight: 2
+    label: above
+    settings:
+      timezone_override: ''
+      date_format: m/d/Y
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_file:
+    weight: 1
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_vendor:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_vendor_response:
+    weight: 5
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
