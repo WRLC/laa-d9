@@ -57,3 +57,4 @@
  */
 $sites['oa.wrlc.org'] = 'oa.wrlc.org';
 $sites['oa.wrlc.lndo.site'] = 'oa.wrlc.org';
+$sites['beta.oa.wrlc.lndo.site'] = 'oa.wrlc.org';
