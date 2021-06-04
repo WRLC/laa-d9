@@ -1,0 +1,20 @@
+uuid: b984ece9-b2fa-4ad0-816c-1c81a2f43c6c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  image_src: 'https://libraryaccessibility.org/sites/default/files/laa-logo-colors.png'
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'
+  og_image_type: image/png
+  og_url: '[current-page:url]'
+  og_image_width: '300'
+  og_image_height: '300'
+  og_title: '[current-page:title]'
+  og_site_name: '[site:name]'
+  og_image_alt: 'Library Accessibility Alliance logo'
+  og_image: 'https://libraryaccessibility.org/sites/default/files/laa-logo-colors.png'

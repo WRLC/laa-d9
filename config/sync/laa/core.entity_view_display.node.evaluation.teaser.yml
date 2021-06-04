@@ -1,0 +1,38 @@
+uuid: 3b93f179-f5ef-478f-b260-9a910b91fd72
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evaluation.body
+    - field.field.node.evaluation.field_date_of_evaluation
+    - field.field.node.evaluation.field_file
+    - field.field.node.evaluation.field_vendor
+    - field.field.node.evaluation.field_vendor_response
+    - node.type.evaluation
+  module:
+    - text
+    - user
+id: node.evaluation.teaser
+targetEntityType: node
+bundle: evaluation
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date_of_evaluation: true
+  field_file: true
+  field_vendor: true
+  field_vendor_response: true

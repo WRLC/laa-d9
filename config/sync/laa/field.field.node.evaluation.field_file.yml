@@ -1,0 +1,27 @@
+uuid: ef772fea-c994-4b8e-bd3c-49087227e36f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.evaluation
+  module:
+    - file
+id: node.evaluation.field_file
+field_name: field_file
+entity_type: node
+bundle: evaluation
+label: File
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf doc docx gif jpg jpeg png'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

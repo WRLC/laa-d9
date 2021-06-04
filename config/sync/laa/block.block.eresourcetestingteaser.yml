@@ -1,0 +1,30 @@
+uuid: e5ed5cbb-0a73-43ac-90ef-8902a12c9412
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4e37ebb4-9c1a-4d92-a664-0b376186b1de'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: eresourcetestingteaser
+theme: custom_barrio
+region: featured_bottom_first
+weight: -7
+provider: null
+plugin: 'block_content:4e37ebb4-9c1a-4d92-a664-0b376186b1de'
+settings:
+  id: 'block_content:4e37ebb4-9c1a-4d92-a664-0b376186b1de'
+  label: 'E-Resource Testing Teaser'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

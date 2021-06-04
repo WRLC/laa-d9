@@ -1,0 +1,30 @@
+uuid: f793eadb-b462-446c-8b07-56f36708c46a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0896aeb0-3982-4c83-acd6-2a7ae0ccb4a7'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: homepageheader
+theme: custom_barrio
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:0896aeb0-3982-4c83-acd6-2a7ae0ccb4a7'
+settings:
+  id: 'block_content:0896aeb0-3982-4c83-acd6-2a7ae0ccb4a7'
+  label: 'Homepage header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

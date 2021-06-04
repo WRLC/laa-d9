@@ -1,0 +1,23 @@
+uuid: 7784db02-d1bc-4bee-96ad-225d31d5676f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.evaluation
+  module:
+    - text
+id: node.evaluation.body
+field_name: body
+entity_type: node
+bundle: evaluation
+label: Summary
+description: 'Copy and paste the summary from the report here.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,18 @@
+uuid: b333f3c4-1baf-450f-a637-1fda5ad916e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.evaluation
+id: node.evaluation.title
+field_name: title
+entity_type: node
+bundle: evaluation
+label: 'Title of E-Resource'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

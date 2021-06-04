@@ -1,0 +1,30 @@
+uuid: e6291627-1d28-4869-803f-2f5892942133
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c7b7a671-ab86-4842-85f9-c8b6c335cee3'
+  module:
+    - block_content
+    - system
+  theme:
+    - custom_barrio
+id: homepagetest
+theme: custom_barrio
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:c7b7a671-ab86-4842-85f9-c8b6c335cee3'
+settings:
+  id: 'block_content:c7b7a671-ab86-4842-85f9-c8b6c335cee3'
+  label: 'Homepage Test'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-test
+    negate: false
