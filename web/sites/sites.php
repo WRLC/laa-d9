@@ -56,4 +56,4 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 $sites['oa.wrlc.org'] = 'oa.wrlc.org';
-$sites['oa.wrlc.lndo.org'] = 'oa.wrlc.org';
+$sites['oa.wrlc.lndo.site'] = 'oa.wrlc.org';
