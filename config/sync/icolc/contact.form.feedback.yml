@@ -1,0 +1,14 @@
+uuid: 619e8355-fa04-48cf-84b2-cc3ef954daf0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - NO-REPLY@icolc.net
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

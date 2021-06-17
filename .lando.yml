@@ -7,8 +7,12 @@ proxy:
   appserver:
     - laa.lndo.site  # libraryaccessibility.org
     - oa.wrlc.lndo.site  # oa.wrlc.org
+    - icolc.lndo.site  # icolc.org
 services:
   # oa.wrlc.org database
   oa:
+    type: mariadb:10.3
+    portforward: true
+  icolc:
     type: mariadb:10.3
     portforward: true
