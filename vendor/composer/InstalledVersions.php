@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '6124a572f91ac9d20fdc3a74162ae3c2582c2276',
+    'reference' => '328fddc127c20d5c3b1d0aace494d0fd0b22f993',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -700,12 +700,12 @@ private static $installed = array (
     ),
     'drupal/fontawesome' => 
     array (
-      'pretty_version' => '2.18.0',
-      'version' => '2.18.0.0',
+      'pretty_version' => '2.19.0',
+      'version' => '2.19.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8.x-2.18',
+      'reference' => '8.x-2.19',
     ),
     'drupal/forum' => 
     array (
@@ -951,7 +951,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '6124a572f91ac9d20fdc3a74162ae3c2582c2276',
+      'reference' => '328fddc127c20d5c3b1d0aace494d0fd0b22f993',
     ),
     'drupal/responsive_image' => 
     array (
