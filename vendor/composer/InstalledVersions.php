@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '02c1b27c5fc98d28286f8ff0b4c7e824542f6878',
+    'reference' => '7e8906c3a8e1340d4148929f31340cbd3de3022a',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -251,6 +251,15 @@ private static $installed = array (
       array (
         0 => '9.2.2',
       ),
+    ),
+    'drupal/antibot' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.4',
     ),
     'drupal/asset_injector' => 
     array (
@@ -978,7 +987,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '02c1b27c5fc98d28286f8ff0b4c7e824542f6878',
+      'reference' => '7e8906c3a8e1340d4148929f31340cbd3de3022a',
     ),
     'drupal/responsive_image' => 
     array (
