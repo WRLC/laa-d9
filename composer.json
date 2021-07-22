@@ -51,6 +51,25 @@
     "config": {
         "sort-packages": true
     },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "@mvgit"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "@mvgit"
+        ],
+        "mvgit": [
+            "( find * -type d -name .git && find * -type f -name .gitmodules ) | xargs -I{} mv {} {}_"
+        ]
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
