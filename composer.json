@@ -24,6 +24,7 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/bootstrap_barrio": "^5.1",
         "drupal/captcha": "^1.2",
+        "drupal/content_access": "^1.0-alpha3",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
