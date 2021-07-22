@@ -6,11 +6,20 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'c52916059c621496971600316adf5997982520c3',
+    'reference' => '1cba3dcbf5f463acaa6b372fab94676ab590dd86',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
   array (
+    'algolia/places' => 
+    array (
+      'pretty_version' => '1.19.0',
+      'version' => '1.19.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'asm89/stack-cors' => 
     array (
       'pretty_version' => '1.3.0',
@@ -29,14 +38,77 @@
       ),
       'reference' => '5f814e980b6f9cf1ca8c74cc9385c3d81090d388',
     ),
-    'composer/installers' => 
+    'choices/choices' => 
     array (
-      'pretty_version' => 'v1.10.0',
-      'version' => '1.10.0.0',
+      'pretty_version' => '9.0.1',
+      'version' => '9.0.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d',
+      'reference' => NULL,
+    ),
+    'ckeditor/autogrow' => 
+    array (
+      'pretty_version' => '4.16.1',
+      'version' => '4.16.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'ckeditor/codemirror' => 
+    array (
+      'pretty_version' => 'v1.17.12',
+      'version' => '1.17.12.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'ckeditor/fakeobjects' => 
+    array (
+      'pretty_version' => '4.16.1',
+      'version' => '4.16.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'ckeditor/image' => 
+    array (
+      'pretty_version' => '4.16.1',
+      'version' => '4.16.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'ckeditor/link' => 
+    array (
+      'pretty_version' => '4.16.1',
+      'version' => '4.16.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'codemirror/codemirror' => 
+    array (
+      'pretty_version' => '5.61.1',
+      'version' => '5.61.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'composer/installers' => 
+    array (
+      'pretty_version' => 'v1.11.0',
+      'version' => '1.11.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ae03311f45dfe194412081526be2e003960df74b',
     ),
     'composer/semver' => 
     array (
@@ -1073,7 +1145,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'c52916059c621496971600316adf5997982520c3',
+      'reference' => '1cba3dcbf5f463acaa6b372fab94676ab590dd86',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1361,6 +1433,114 @@
       ),
       'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
     ),
+    'jquery/chosen' => 
+    array (
+      'pretty_version' => '1.8.7',
+      'version' => '1.8.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/geocomplete' => 
+    array (
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/hotkeys' => 
+    array (
+      'pretty_version' => '0.2.0',
+      'version' => '0.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/icheck' => 
+    array (
+      'pretty_version' => '1.0.2 ',
+      'version' => '1.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/image-picker' => 
+    array (
+      'pretty_version' => '0.3.1',
+      'version' => '0.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/inputmask' => 
+    array (
+      'pretty_version' => '5.0.6',
+      'version' => '5.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/intl-tel-input' => 
+    array (
+      'pretty_version' => '16.1.0',
+      'version' => '16.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/rateit' => 
+    array (
+      'pretty_version' => '1.1.3',
+      'version' => '1.1.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/select2' => 
+    array (
+      'pretty_version' => '4.0.13',
+      'version' => '4.0.13.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/textcounter' => 
+    array (
+      'pretty_version' => '0.9.0',
+      'version' => '0.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/timepicker' => 
+    array (
+      'pretty_version' => '1.13.18',
+      'version' => '1.13.18.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'jquery/toggles' => 
+    array (
+      'pretty_version' => '4.0.0',
+      'version' => '4.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'laminas/laminas-diactoros' => 
     array (
       'pretty_version' => '2.6.0',
@@ -1485,6 +1665,15 @@
       ),
       'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
     ),
+    'progress-tracker/progress-tracker' => 
+    array (
+      'pretty_version' => '2.0.6',
+      'version' => '2.0.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'psr/cache' => 
     array (
       'pretty_version' => '1.0.1',
@@ -1605,6 +1794,15 @@
         0 => '*',
       ),
     ),
+    'signature_pad/signature_pad' => 
+    array (
+      'pretty_version' => '2.3.0',
+      'version' => '2.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'stack/builder' => 
     array (
       'pretty_version' => 'v1.0.6',
@@ -1613,6 +1811,15 @@
       array (
       ),
       'reference' => 'a4faaa6f532c6086bc66c29e1bc6c29593e1ca7c',
+    ),
+    'svg-pan-zoom/svg-pan-zoom' => 
+    array (
+      'pretty_version' => '3.6.1',
+      'version' => '3.6.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
     ),
     'symfony-cmf/routing' => 
     array (
@@ -1923,6 +2130,33 @@
       ),
       'reference' => '81cdac5536925c1c4b7b50aabc9ff6330b9eb5fc',
     ),
+    'tabby/tabby' => 
+    array (
+      'pretty_version' => '12.0.3',
+      'version' => '12.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'tippyjs/5.x' => 
+    array (
+      'pretty_version' => '5.2.1',
+      'version' => '5.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'tippyjs/6.x' => 
+    array (
+      'pretty_version' => '6.2.6',
+      'version' => '6.2.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'twbs/bootstrap' => 
     array (
       'pretty_version' => 'v5.0.1',
@@ -1983,6 +2217,15 @@
       array (
       ),
       'reference' => 'd939f7edc24c9a1bb9c0dee5cb05d8e859490725',
+    ),
+    'wikimedia/composer-merge-plugin' => 
+    array (
+      'pretty_version' => 'v2.0.1',
+      'version' => '2.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8ca2ed8ab97c8ebce6b39d9943e9909bb4f18912',
     ),
     'zendframework/zend-diactoros' => 
     array (
