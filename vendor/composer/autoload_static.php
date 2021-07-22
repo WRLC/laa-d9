@@ -108,6 +108,7 @@ class ComposerStaticInit89b44572c655492073461dbb86240db4
         ),
         'M' => 
         array (
+            'Michelf\\' => 8,
             'Masterminds\\' => 12,
         ),
         'L' => 
@@ -345,6 +346,10 @@ class ComposerStaticInit89b44572c655492073461dbb86240db4
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Michelf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
         ),
         'Masterminds\\' => 
         array (

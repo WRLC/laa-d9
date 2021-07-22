@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'd33efa49fb991bb3e69c45dec1453e89e2def0f8',
+    'reference' => '02c1b27c5fc98d28286f8ff0b4c7e824542f6878',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -222,6 +222,15 @@
       array (
       ),
       'reference' => '8.x-1.6',
+    ),
+    'drupal/advanced_help' => 
+    array (
+      'pretty_version' => '1.0.0-beta1',
+      'version' => '1.0.0.0-beta1',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-beta1',
     ),
     'drupal/aggregator' => 
     array (
@@ -956,7 +965,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'd33efa49fb991bb3e69c45dec1453e89e2def0f8',
+      'reference' => '02c1b27c5fc98d28286f8ff0b4c7e824542f6878',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1269,6 +1278,15 @@
       array (
       ),
       'reference' => '9227822783c75406cfe400984b2f095cdf03d417',
+    ),
+    'michelf/php-markdown' => 
+    array (
+      'pretty_version' => '1.9.0',
+      'version' => '1.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c83178d49e372ca967d1a8c77ae4e051b3a3c75c',
     ),
     'nikic/php-parser' => 
     array (
