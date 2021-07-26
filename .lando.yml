@@ -16,3 +16,6 @@ services:
   icolc:
     type: mariadb:10.3
     portforward: true
+  icolc7:
+    type: mariadb:10.3
+    portforward: true
