@@ -2,6 +2,7 @@
 web/sites/*/files
 web/sites/*/private
 files/*
+icolc_private
 
 # Place local settings in settings.local.php
 web/sites/*/settings.local.php
