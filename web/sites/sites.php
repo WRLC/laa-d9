@@ -55,8 +55,8 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
-$sites['oa.wrlc.org'] = 'oa.wrlc.org';
-$sites['oa.wrlc.lndo.site'] = 'oa.wrlc.org';
-$sites['open-beta.wrlc.org'] = 'oa.wrlc.org';
+$sites['oa.wrlc.org'] = 'open.wrlc.org';
+$sites['oa.wrlc.lndo.site'] = 'open.wrlc.org';
+$sites['open-beta.wrlc.org'] = 'open.wrlc.org';
 $sites['icolc.lndo.site'] = 'icolc.net';
 $sites['icolc-beta.wrlc.org'] = 'icolc.net';
