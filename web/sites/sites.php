@@ -57,10 +57,6 @@
  */
 $sites['oa.wrlc.org'] = 'oa.wrlc.org';
 $sites['oa.wrlc.lndo.site'] = 'oa.wrlc.org';
-$sites['beta.oa.wrlc.org'] = 'oa.wrlc.org';
-$sites['drupal9.wrlc.org.oa'] = 'oa.wrlc.org';
-$sites['drupal9.wrlc2k.wrlc.org.oa'] = 'oa.wrlc.org';
+$sites['open-beta.wrlc.org'] = 'oa.wrlc.org';
 $sites['icolc.lndo.site'] = 'icolc.net';
-$sites['beta.icolc.net'] = 'icolc.net';
-$sites['drupal9.wrlc.org.icolc'] = 'icolc.net';
-$sites['drupal9.wrlc2k.wrlc.org.icolc'] = 'icolc.net';
+$sites['icolc-beta.wrlc.org'] = 'icolc.net';
