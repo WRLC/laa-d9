@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7bf40ee49cb78b20b68f3f6a7bd401819a9fdf04',
+    'reference' => '204f6bf34d09776fdd804ea1fb8702127dcd1914',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -396,12 +396,12 @@
     ),
     'drupal/bootstrap_barrio' => 
     array (
-      'pretty_version' => '5.5.1',
-      'version' => '5.5.1.0',
+      'pretty_version' => '5.5.2',
+      'version' => '5.5.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '5.5.1',
+      'reference' => '5.5.2',
     ),
     'drupal/breakpoint' => 
     array (
@@ -1173,7 +1173,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7bf40ee49cb78b20b68f3f6a7bd401819a9fdf04',
+      'reference' => '204f6bf34d09776fdd804ea1fb8702127dcd1914',
     ),
     'drupal/responsive_image' => 
     array (
@@ -2187,12 +2187,12 @@
     ),
     'twbs/bootstrap' => 
     array (
-      'pretty_version' => 'v5.0.1',
-      'version' => '5.0.1.0',
+      'pretty_version' => 'v5.1.0',
+      'version' => '5.1.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '58b1be927f43c779377e478df2d119f2ddf956ca',
+      'reference' => 'f20fece3a8cdd0e76a42c2737524b7652bf54d26',
     ),
     'twig/twig' => 
     array (
@@ -2207,7 +2207,7 @@
     array (
       'replaced' => 
       array (
-        0 => 'v5.0.1',
+        0 => 'v5.1.0',
       ),
     ),
     'typo3/phar-stream-wrapper' => 
