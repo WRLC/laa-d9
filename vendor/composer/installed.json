@@ -1925,18 +1925,18 @@
         },
         {
             "name": "drupal/bootstrap_barrio",
-            "version": "5.5.1",
-            "version_normalized": "5.5.1.0",
+            "version": "5.5.2",
+            "version_normalized": "5.5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "5.5.1"
+                "reference": "5.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.5.1.zip",
-                "reference": "5.5.1",
-                "shasum": "cc6f630435c4f4e93141511c2e0d8db92b3f90cd"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.5.2.zip",
+                "reference": "5.5.2",
+                "shasum": "1e0682d5962df4c54a150aeff2f8c14f1f9ab8a2"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -1945,8 +1945,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "5.5.1",
-                    "datestamp": "1621798745",
+                    "version": "5.5.2",
+                    "datestamp": "1626640981",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2111,17 +2111,17 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.2",
-            "version_normalized": "9.2.2.0",
+            "version": "9.2.3",
+            "version_normalized": "9.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "08ad826a9ccd193e9a2e717f75c9f6fac3274a79"
+                "reference": "e9c75c8e2d1395aebb19cad17d6a514945636ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/08ad826a9ccd193e9a2e717f75c9f6fac3274a79",
-                "reference": "08ad826a9ccd193e9a2e717f75c9f6fac3274a79",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e9c75c8e2d1395aebb19cad17d6a514945636ecf",
+                "reference": "e9c75c8e2d1395aebb19cad17d6a514945636ecf",
                 "shasum": ""
             },
             "require": {
@@ -2286,7 +2286,7 @@
                 "drupal/workflows": "self.version",
                 "drupal/workspaces": "self.version"
             },
-            "time": "2021-07-20T21:42:48+00:00",
+            "time": "2021-08-03T13:14:21+00:00",
             "type": "drupal-core",
             "extra": {
                 "drupal-scaffold": {
@@ -2362,14 +2362,14 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.2"
+                "source": "https://github.com/drupal/core/tree/9.2.3"
             },
             "install-path": "../../web/core"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.2",
-            "version_normalized": "9.2.2.0",
+            "version": "9.2.3",
+            "version_normalized": "9.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2415,14 +2415,14 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.2"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.3"
             },
             "install-path": "../drupal/core-composer-scaffold"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.2.2",
-            "version_normalized": "9.2.2.0",
+            "version": "9.2.3",
+            "version_normalized": "9.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2459,23 +2459,23 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/9.2.2"
+                "source": "https://github.com/drupal/core-project-message/tree/9.2.3"
             },
             "install-path": "../drupal/core-project-message"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.2",
-            "version_normalized": "9.2.2.0",
+            "version": "9.2.3",
+            "version_normalized": "9.2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "06a84abc067304e9280fde292a382ca6bce82ee1"
+                "reference": "20feef210c8506a8cc903bd5ef9ef90dec89e71e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/06a84abc067304e9280fde292a382ca6bce82ee1",
-                "reference": "06a84abc067304e9280fde292a382ca6bce82ee1",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/20feef210c8506a8cc903bd5ef9ef90dec89e71e",
+                "reference": "20feef210c8506a8cc903bd5ef9ef90dec89e71e",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2484,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.2",
+                "drupal/core": "9.2.3",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -2540,7 +2540,7 @@
             "conflict": {
                 "webflo/drupal-core-strict": "*"
             },
-            "time": "2021-07-20T21:42:48+00:00",
+            "time": "2021-08-03T13:14:21+00:00",
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2548,7 +2548,7 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.2"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.3"
             },
             "install-path": null
         },
@@ -9043,23 +9043,23 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v5.0.1",
-            "version_normalized": "5.0.1.0",
+            "version": "v5.1.0",
+            "version_normalized": "5.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca"
+                "reference": "f20fece3a8cdd0e76a42c2737524b7652bf54d26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/58b1be927f43c779377e478df2d119f2ddf956ca",
-                "reference": "58b1be927f43c779377e478df2d119f2ddf956ca",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/f20fece3a8cdd0e76a42c2737524b7652bf54d26",
+                "reference": "f20fece3a8cdd0e76a42c2737524b7652bf54d26",
                 "shasum": ""
             },
             "replace": {
                 "twitter/bootstrap": "self.version"
             },
-            "time": "2021-05-13T16:22:20+00:00",
+            "time": "2021-08-04T15:41:51+00:00",
             "type": "library",
             "installation-source": "dist",
             "notification-url": "https://packagist.org/downloads/",
@@ -9090,14 +9090,8 @@
             ],
             "support": {
                 "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v5.0.1"
+                "source": "https://github.com/twbs/bootstrap/tree/v5.1.0"
             },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/bootstrap",
-                    "type": "open_collective"
-                }
-            ],
             "install-path": "../twbs/bootstrap"
         },
         {
