@@ -42,6 +42,7 @@
         "drupal/migrate_upgrade": "^3.2",
         "drupal/panels": "^4.6",
         "drupal/pathauto": "^1.8",
+        "drupal/php": "^1.1",
         "drupal/rules": "3.x-dev",
         "drupal/typed_data": "^1.0-alpha5",
         "drupal/userprotect": "^1.1",
