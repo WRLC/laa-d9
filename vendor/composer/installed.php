@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'dc73db3e86a85e5a955f9e3c1edf2925924c93f0',
+    'reference' => 'd79392e73244022b3a131e666d46f4cbddb8b40d',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -396,12 +396,12 @@
     ),
     'drupal/bootstrap_barrio' => 
     array (
-      'pretty_version' => '5.5.2',
-      'version' => '5.5.2.0',
+      'pretty_version' => '5.5.1',
+      'version' => '5.5.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '5.5.2',
+      'reference' => '5.5.1',
     ),
     'drupal/breakpoint' => 
     array (
@@ -1182,7 +1182,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'dc73db3e86a85e5a955f9e3c1edf2925924c93f0',
+      'reference' => 'd79392e73244022b3a131e666d46f4cbddb8b40d',
     ),
     'drupal/responsive_image' => 
     array (

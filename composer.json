@@ -22,7 +22,7 @@
         "drupal/antibot": "^1.4",
         "drupal/asset_injector": "^2.7",
         "drupal/backup_migrate": "^5.0",
-        "drupal/bootstrap_barrio": "^5.1",
+        "drupal/bootstrap_barrio": "5.5.1",
         "drupal/captcha": "^1.2",
         "drupal/content_access": "^1.0-alpha3",
         "drupal/core-composer-scaffold": "^9.1",
